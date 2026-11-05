@@ -97,7 +97,7 @@ def print_banner(*, environment, is_ssl, operating_system, user_email, user_id, 
     )
 
     print(rule)
-    print(_style("  Subscription to Reports - Subscriptions -> Report Manager", _BOLD))
+    print(_style("  Subscription to Reports", _BOLD))
     print(rule)
     print(f"  Environment : {_style(environment, _BOLD)}  ({'HTTPS' if is_ssl else 'HTTP'} - {operating_system})")
     print(f"  Token user  : {_style(user_email or 'unknown', _BOLD)}  ({user_id or 'unknown'})")

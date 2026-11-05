@@ -1,4 +1,4 @@
-"""Shared fakes/fixtures for the RM Migration test suite.
+"""Shared fakes/fixtures for the Subscription to Reports test suite.
 
 Nothing here talks to a real Sisense server - every external dependency
 (pysisense's SisenseClient/AccessManagement) is stood in for by a small
