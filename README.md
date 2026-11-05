@@ -1,4 +1,4 @@
-# RM Migration (API only)
+# Subscription to Reports
 
 A Python helper that migrates dashboard **subscriptions** to **Report Manager** reports, using only the Sisense REST API.
 
