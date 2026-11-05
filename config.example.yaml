@@ -1,0 +1,12 @@
+# It follows the same shape as Pysisense https://github.com/sisense/pysisense/blob/main/config.yaml.example
+domain: "192.168.1.100"   # IP address or hostname, no protocol, no port
+is_ssl: false             # true for HTTPS (port 443), false for HTTP (default port 30845)
+# port: 30845             # optional, HTTP port when is_ssl is false (omit to use 30845)
+token: "your-api-token-here"  # Sisense Admin API token
+# operating_system: linux  # "linux" (default) or "windows", controls OS-specific API endpoints
+
+# Optional: text added before / after the dashboard title in every report
+# name, separated by a space. Without these, the report is named exactly
+# like its dashboard. Example below gives "Subscription - Sales (Migrated)".
+# report_name_prefix: "Subscription -"
+# report_name_suffix: "(Migrated)"

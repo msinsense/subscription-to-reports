@@ -1,0 +1,26 @@
+# Secrets - never commit a real token
+config.yaml
+
+# Run logs (keep the folder via .gitkeep)
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
